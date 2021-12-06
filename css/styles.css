@@ -20,13 +20,23 @@ body {
 .page-header {
   background-color: #ffffff;
 }
+
+.conteiner {
+  width: 1230;
+  padding-left: 15;
+  padding-right: 15;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .logo {
   color: var(--accent-color--);
   font-family: Raleway;
-
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
@@ -36,7 +46,6 @@ ul {
 }
 .Studio {
   color: var(--title-text-color--);
-
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
@@ -51,6 +60,7 @@ ul {
 /* site-nav */
 
 .site-nav a {
+  display: inline-block;
   color: var(--title-text-color--);
   font-weight: 500;
   font-size: 14px;
@@ -78,19 +88,23 @@ ul {
 }
 /* hero */
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   color: var(--four-text-color--);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   /* or 136% */
-  text-align: center;
   letter-spacing: 0.06em;
 }
 .hero {
   background-color: #2f303a;
+  text-align: center;
 }
 /* section */
 .fiture-title {
+  margin-top: 0;
+  margin-bottom: 10px;
   color: var(--title-text-color--);
   font-family: Roboto;
   font-style: normal;
@@ -101,6 +115,8 @@ ul {
   text-transform: uppercase;
 }
 .text {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--primary-text-color--);
   font-family: Roboto;
   font-style: normal;
@@ -113,8 +129,17 @@ ul {
 
 .section {
   background-color: #e5e5e5;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section-one {
+  background-color: #e5e5e5;
+  padding-top: 0;
+  padding-bottom: 94px;
 }
 .section-title-work {
+  margin-top: 0;
+  margin-bottom: 50px;
   color: var(--title-text-color--);
   font-weight: 700;
   font-size: 36px;
@@ -124,8 +149,12 @@ ul {
 }
 .section-command {
   background-color: #f5f4f4;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-title {
+  margin-top: 0;
+  margin-bottom: 10;
   color: var(--title-text-color--);
   font-family: Roboto;
   font-style: normal;
@@ -136,6 +165,8 @@ ul {
   letter-spacing: 0.03em;
 }
 .position {
+  margin-top: 0;
+  margin-bottom: 30;
   color: var(--primary-text-color--);
   font-family: Roboto;
   font-style: normal;
@@ -147,6 +178,12 @@ ul {
 }
 /* button */
 .button {
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  min-width: 200px;
+  border: 1px solid transparent;
+
   color: var(--four-text-color--);
   background: var(--accent-color--);
   font-family: Roboto;
@@ -155,17 +192,18 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   /* identical to box height, or 187% */
-
   text-align: center;
   letter-spacing: 0.06em;
 }
 .button:hover .button:focus {
   color: #ffffff;
 }
+
 /* footer */
 .footer {
   background-color: #2f303a;
 }
+
 .logo a {
   color: var(--accent-color--);
   font-family: Raleway;
@@ -227,6 +265,13 @@ body {
 .page-header {
   background-color: #ffffff;
 }
+.conteiner {
+  width: 1230;
+  padding-left: 15;
+  padding-right: 15;
+  margin-left: auto;
+  margin-right: auto;
+}
 ul {
   list-style: none;
 }
@@ -236,7 +281,6 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   /* identical to box height*/
-
   letter-spacing: 0.03em;
 }
 
@@ -287,7 +331,19 @@ ul {
   /* identical to box height, or 162% */
   letter-spacing: 0.03em;
 }
+.conteiner {
+  width: 1230;
+  padding-left: 15;
+  padding-right: 15;
+  margin-left: auto;
+  margin-right: auto;
+}
 .button {
+  display: inline-block;
+  padding: 6px 22px;
+  border-radius: 4px;
+  min-width: 73px;
+  border: 1px solid transparent;
   color: var(--four-text-color--);
   font-family: Roboto;
   font-style: normal;
@@ -295,11 +351,12 @@ ul {
   font-size: 16px;
   line-height: 1.62;
   /* identical to box height, or 162% */
-
   text-align: center;
   letter-spacing: 0.03em;
 }
 .heading {
+  margin-top: 0;
+  margin-bottom: 4px;
   color: var(--title-text-color--);
   font-weight: 700;
   font-size: 18px;
@@ -309,6 +366,8 @@ ul {
   letter-spacing: 0.06em;
 }
 .paragraph {
+  margin-top: 0;
+  margin-bottom: 20px;
   color: var(--primary-text-color--);
   font-weight: 400;
   font-size: 16px;
